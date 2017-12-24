@@ -105,8 +105,8 @@ fieldset {
 }
 .header-area .social a {
   color: rgba(255, 255, 255, 0.8);
-  display: inline-block;
   text-align: center;
+  /*display: inline-block;
   width: 32px;
   height: 32px;
   -webkit-border-radius: 50%;
@@ -115,10 +115,10 @@ fieldset {
   -o-border-radius: 50%;
   border-radius: 50%;
   -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
+  -webkit-background-clip: padding-box;*/
   background-clip: padding-box;
   padding-top: 2px;
-  font-size: 16px;
+  font-size: 50px;
   border: 2px solid rgba(255, 255, 255, 0.8);
 }
 .header-area .social a:hover {
@@ -224,9 +224,6 @@ fieldset {
 }
 .social-link a i {
     font-size: 20px;
-}
-#faLinks {
-   font-size: 2em;
 }
 
 
