@@ -456,8 +456,8 @@ a.btn:hover {
 }
 .footer-area .social a {
   color: rgba(255, 255, 255, 0.8);
-  display: inline-block;
   text-align: center;
+  /*display: inline-block;
   width: 32px;
   height: 32px;
   -webkit-border-radius: 50%;
@@ -467,10 +467,10 @@ a.btn:hover {
   border-radius: 50%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  background-clip: padding-box;*/
   padding-top: 2px;
-  font-size: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  font-size: 25px;
+  /*border: 2px solid rgba(255, 255, 255, 0.8);*/
 }
 .footer-area .social a:hover {
   color: #fff;
