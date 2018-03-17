@@ -148,7 +148,7 @@ fieldset {
     background-position: center center;
 }
 .header-area:before {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.1);
     position: absolute;
     left: 0px;
     top: 0px;
