@@ -610,6 +610,7 @@ a.btn:hover {
   .timeline .job-meta {
     position: static;
     margin-bottom: 15px;
+    max-width: 300px;
   }
   .education-section .item {
     padding: 0;
