@@ -1,11 +1,3 @@
-/*------------------------------------------------------------------
-Project:  ComingSoon
-Version:  
-Last change:  
-Assigned to:  Bach Le
-Primary use:  
--------------------------------------------------------------------*/
-
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -53,7 +45,7 @@ Primary use:
   height: 80px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .wrap-input100 {
     max-width: 100%;
   }
@@ -150,7 +142,7 @@ Primary use:
   opacity: 1;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .alert-validate::before {
     visibility: visible;
     opacity: 1;
@@ -450,7 +442,7 @@ Primary use:
 
 /*//////////////////////////////////////////////////////////////////
 [ LG ]*/
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .dis-none-lg {display: none;}
   .m-0-lg {margin: 0;}
   .m-lr-0-lg {margin-left: 0; margin-right: 0;}
