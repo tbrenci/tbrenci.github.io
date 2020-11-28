@@ -1,7 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
-
-
 
 html, body, .full-screen {
   height: 100%;
@@ -19,6 +16,7 @@ body {
   flex: 1 1 auto;
   display: flex;
 }
+
 .middle {
   flex: 1 1 auto;
   background-image: url('../images/bg1.jpg');
@@ -35,7 +33,6 @@ body {
   line-height: 1.2;
   margin: auto;
 }
-
 h1 {
   font-size: 60px;
   color: #000;
@@ -47,9 +44,7 @@ h2 {
   color: #999;
   font-weight: 500;
   margin: 0px;
-
 }
-
 .socialheader {
   z-index: 1;
   position: absolute;
@@ -68,14 +63,6 @@ h2 {
   transition-duration: 0.5s;
 }
 
-/*
-@media only screen and (min-width: 1200px) {
-  h1 {
-    font-size: 72px;
-    font-size: 98px;
-  }
-}
-*/
 @media only screen and (min-width: 1200px) {
   h1 {
     font-size: 98px;
@@ -87,15 +74,6 @@ h2 {
     width: 50%;
   }
 }
-/*
-@media only screen and (max-width: 800px) {
-  .left {
-    width: 45%;
-  }
-  .middle {
-    width: 55%;
-  }
-}*/
 
 @media only screen and (max-width: 700px) {
   body {
