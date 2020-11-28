@@ -17,14 +17,14 @@ body {
   display: flex;
 }
 
-.middle {
+.imageArea {
   flex: 1 1 auto;
   background-image: url('../images/bg1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.left {
+.textArea {
   width: 350px;
   width: 45%;
   vertical-align: middle;
@@ -38,12 +38,14 @@ h1 {
   color: #000;
   font-weight: 500;
   margin: 0px;
+  transition-duration: 0.5s;
 }
 h2 {
   font-size: 20px;
   color: #999;
   font-weight: 500;
   margin: 0px;
+  transition-duration: 0.5s;
 }
 .socialheader {
   z-index: 1;
@@ -70,7 +72,7 @@ h2 {
   h2 {
     font-size: 28px;
   }
-  .left {
+  .textArea {
     width: 50%;
   }
 }
@@ -79,12 +81,12 @@ h2 {
   body {
     background-color: #000;
   }
-  .left {
+  .textArea {
     position: absolute;
     width: 100%;
     padding-top: 100px;
   }
-  .middle {
+  .imageArea {
     background-image: url('../images/bg2.jpg');
     width: 100%;
     margin-top: 100px;
@@ -94,11 +96,11 @@ h2 {
     font-size: 64px;
   }
   h2 {
+    color: #666;
     font-size: 18px;
   }
   .socialicon {
     color: #fff;
-    font-size: 48px;
   }
   .socialicon:hover {
     color: #999;
