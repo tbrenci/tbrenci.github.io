@@ -6,6 +6,7 @@ html, body, .full-screen {
   min-height: 300px
 }
 body {
+  overflow: hidden;
   margin: 0;
 }
 .full-screen {
