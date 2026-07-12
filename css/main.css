@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 
+:root {
+  --text-color: #333;
+}
+
 html, body, .full-screen {
   height: 100%;
-  min-width: 300px;
+  min-width: 320px;
   min-height: 300px
 }
 body {
-  overflow: hidden;
   margin: 0;
+  overflow: hidden;
 }
 .full-screen {
   display: flex;
@@ -27,7 +31,7 @@ body {
 }
 .textArea {
   width: 350px;
-  width: 45%;
+  width: 40%;
   vertical-align: middle;
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -35,15 +39,16 @@ body {
   margin: auto;
 }
 h1 {
-  font-size: 60px;
-  color: #000;
+  font-size: 80px;
+  color: var(--text-color);
   font-weight: 500;
   margin: 0px;
   transition-duration: 0.5s;
+  padding-bottom: 35px;
 }
 h2 {
   font-size: 20px;
-  color: #999;
+  color: var(--text-color);
   font-weight: 500;
   margin: 0px;
   transition-duration: 0.5s;
@@ -56,7 +61,7 @@ h2 {
 }
 .socialicon {
   font-size: 50px;
-  color: #666;
+  color: var(--text-color);
   background-color: transparent;
   padding-right: 5px;
   transition-duration: 0.5s;
@@ -66,26 +71,59 @@ h2 {
   transition-duration: 0.5s;
 }
 
-@media only screen and (min-width: 1200px) {
+/*
+@media only screen and (min-width: 1100px) {
   h1 {
-    font-size: 98px;
+    font-size: 80px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .textArea {
-    width: 50%;
+    width: 40%;
+  }
+}*/
+@media only screen and (max-width: 1100px) {
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .textArea {
+    width: 45%;
   }
 }
-
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 62px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .textArea {
+    width: 45%;
+  }
+}
 @media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .textArea {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 600px) {
   body {
     background-color: #000;
   }
   .textArea {
     position: absolute;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 75px;
   }
   .imageArea {
     background-image: url('../images/bg2.jpg');
@@ -95,15 +133,46 @@ h2 {
   h1 {
     color: #fff;
     font-size: 64px;
+    padding-bottom: 80px;
   }
   h2 {
-    color: #666;
+    color: #eaeaeb;
     font-size: 18px;
   }
   .socialicon {
     color: #fff;
   }
   .socialicon:hover {
-    color: #999;
+    color: #eaeaeb;
+  }
+}
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: #000;
+  }
+  .textArea {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .imageArea {
+    width:0%;
+    background-image: none;
+  }
+  h1 {
+    color: #fff;
+    font-size: 64px;
+  }
+  h2 {
+    color: #eaeaeb;
+    font-size: 18px;
+  }
+  .socialicon {
+    padding: 0px;
+    color: #fff;
+  }
+  .socialicon:hover {
+    color: #eaeaeb;
   }
 }
